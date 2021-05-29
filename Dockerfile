@@ -7,7 +7,7 @@ RUN apt-get update && \
 	ln -sfn /usr/bin/python3.7 /usr/bin/python && \
 	ln -sfn /usr/bin/pip3 /usr/bin/pip
 
-# install my-app
+# install myapp
 WORKDIR /myapp
 ADD myapp .
 RUN pip install .
