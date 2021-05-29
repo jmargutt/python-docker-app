@@ -1,5 +1,5 @@
 # python-docker-app
-template for python docker app
+template for python docker app and instructions for deployment in Azure
 
 ## Requirements
 Locally:
